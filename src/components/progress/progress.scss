@@ -1,0 +1,22 @@
+.line {
+  height: 2px;
+  border-radius: 1px;
+  background-color: #cce7c2;
+  position: relative;
+  overflow: hidden;
+  &.active {
+    .indicator {
+      width: 100%;
+      transition: 5s linear;
+    }
+  }
+}
+
+.indicator {
+  position: absolute;
+  background-color: #a15c1b;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 0;
+}
