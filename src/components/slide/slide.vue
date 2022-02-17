@@ -2,7 +2,7 @@
   <div class="slide" :class="{active}">
     <div class="slide__wrapper">
       <div class="slide__header">
-      <Progress :active="active" :startProgress="startProgress" @onFinish="$emit('onProgressFinish')" />
+      <Progress :active="active" :startProgress="active" @onFinish="$emit('onProgressFinish')" />
       <div class="user">
         <user :name="data.username" :src="data.userAvatar" />
       </div>
