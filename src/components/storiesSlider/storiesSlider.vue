@@ -129,5 +129,6 @@ export default {
 .stories-container {
    height:660px;
    position: relative;
+   overflow:hidden;
 }
 </style>
